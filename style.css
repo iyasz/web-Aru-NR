@@ -1,0 +1,285 @@
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-Medium.ttf);
+}
+@font-face {
+        font-family: opp;
+        src: url(Poppins-Regular.ttf);
+    }
+
+@font-face {
+        font-family: oppp;
+        src: url(Poppins-Light.ttf);
+    }
+
+    body {
+        background-color: #26202c;
+        padding: 0;
+        margin: 0;
+        height: 2300px;
+    }
+
+    
+
+    .nav {
+        display: flex;
+        margin-left: 790px;
+        margin-top: 20px;
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: white;
+        margin-left: 25px;
+        font-family: opp;
+        font-size: 12px;
+        opacity: 87%;
+    }
+
+    .nav a:hover {
+        opacity: 100%;
+        border-bottom: solid white 1px;
+    }
+
+    .contactus  {
+        margin-left: 50px;
+    }
+
+    .contactus a {
+        border: solid white 1px;
+        border-radius: 3px;
+        padding: 2px 13px 2px 13px;
+        font-size: 12px;
+    }
+
+    .desk h1 {
+        color: white;
+        font-family: poppins;
+        letter-spacing: 1.2px;
+        word-spacing: 4px;
+        line-height: 1;
+        font-size: 40px;
+    }
+
+    .desk {
+        margin: 140px 0px 0px 105px;
+        line-height: 1.3;
+    }
+
+    .desk p {
+        color: white;
+        font-family: oppp;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+    }
+
+    .desk a {
+        text-decoration: none;
+        color: white;
+        background-color: rgb(113, 12, 214);
+        padding: 6px 23px 6px 23px;
+        font-size: 11px;
+        border-radius: 4px;
+        font-family: oppp;
+        letter-spacing: 0.4px;
+        position: relative;
+        top: 15px;
+    }
+
+    .header {
+        display: flex;
+        margin: 210px 0px 0px 105px;
+    }
+
+    .header h2 {
+        color: white;
+        font-family: poppins;
+        font-size: 24px;
+        letter-spacing: 0.8px;
+        line-height: 1.4;
+    }
+
+    .header p {
+        margin-left: 670px;
+        color: white;
+        font-family: opp;
+        font-size: 12px;
+        margin-top: 35px;
+    }
+
+    .gambar img {
+        width: 920px;
+        height: 470px;
+        margin-top: 10px;
+        margin-left: 200px;
+    }
+
+    .nav-control h2 {
+        text-align: center;
+        color: white;
+        font-family: opp;
+        font-size: 25px;
+        margin-top: 57px;
+        letter-spacing: 1.4px;
+    }
+
+    .row-col-1 {
+        display:  flex;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+
+    .dev, .design, .graphic {
+        margin-left: 110px;
+        
+    }
+
+    .dev h3 {
+        color: white;
+        font-family: oppp;
+        letter-spacing: 1.4px;
+        
+    }
+
+    .dev p {
+        color: white;
+        font-family: oppp;
+        font-size: 12px;
+        line-height: 1.9;
+        position: relative;
+        top: -10px;
+    }
+
+    .design h3 {
+        color: white;
+        font-family: oppp;
+        letter-spacing: 1.4px;
+        
+    }
+
+    .design p {
+        color: white;
+        font-family: oppp;
+        font-size: 12px;
+        line-height: 1.9;
+        position: relative;
+        top: -10px;
+    }
+
+    .graphic h3 {
+        color: white;
+        font-family: oppp;
+        letter-spacing: 1.4px;
+        
+    }
+
+    .graphic p {
+        color: white;
+        font-family: oppp;
+        font-size: 12px;
+        line-height: 1.9;
+        position: relative;
+        top: -10px;
+    }
+
+    .row-col-2 {
+        display: flex;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    .text h2 {
+        color: white;
+        font-family: poppins;
+        font-size: 24px;
+        letter-spacing: 1.4px;
+        margin-top: 48px;
+        margin-left: 135px;
+    }
+
+    .gambarr  {
+        display: flex;
+        margin: 30px 0px 0px 50px;
+    }
+
+    .gambarr img {
+        width: 340px;
+        height: 250px;
+        margin-left: 50px;
+        border-radius: 9px;
+        opacity: 86%;
+        transition: 0.5s;
+        
+    }
+
+    /* .gambarr img:hover {
+        width: 355px;
+        height: 265px;
+        transition: 0.5s;
+        opacity: 100%;
+        
+    } */
+
+    .gambarr img:hover {
+        opacity: 100%;
+        transform: scale(1.1);
+        transition: 0.7s;
+    }
+
+    .col-contact {
+        display: flex;
+        background-color: rgb(32, 27, 36) ;
+        margin: 90px 0px 0px 100px;
+        padding: 8px 0px 8px 35px;
+        border-radius: 6px;
+        width: 1080px;
+    }
+
+    .col-contact h1 {
+        color: white;
+        font-family: opp;
+        line-height: 1.4;
+        font-size: 23px;
+        letter-spacing: 1.1px;
+    }
+
+    .col-contact a {
+        text-decoration: none;
+        color: white;
+        margin-left: 620px;
+        margin-top: 30px;
+        background-color: rgb(113, 12, 214);
+        font-family: opp;
+        font-size: 12px;
+        padding: 6px 20px 10px 20px;
+        border-radius: 4px;
+        height: 15px;
+    }
+
+    .footer-control {
+        display: flex;
+        margin: 70px 0px 0px 360px;
+    }
+
+    .footer-control a {
+        text-decoration: none;
+        color: white;
+        opacity: 87%;
+        font-family: opp;
+        font-size: 11px;
+        margin-left: 16px;
+    }
+
+    .footer-control p {
+        color:  white;
+        font-family: opp;
+        letter-spacing: 0.4px;
+        margin-left: 420px;
+        font-size: 11px;
+        position: relative;
+        top: -10px;
+    }
+
+    
